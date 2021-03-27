@@ -1,0 +1,17 @@
+{
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "electron": "^12.0.2",
+    "electron-rebuild": "^2.3.5",
+    "iohook": "^0.7.2",
+    "robotjs": "^0.6.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^22.10.5"
+  }
+}
